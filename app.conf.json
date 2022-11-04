@@ -1,0 +1,14 @@
+{
+    "base_url":"http://localhost:8099/",
+    "server": {
+        "port": 8099,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "jwt": {
+        "token_secret": "ENTEKADANGKADANG",
+        "expaired_duration": 18000
+    }
+}
